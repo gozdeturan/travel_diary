@@ -11,6 +11,7 @@
     </div>
   <% end %>
 
+<div class= "form-fields">
   <p>City: <%= f.collection_select :city_id, City.all, :id, :name %></p>
   <p>Title: <%= f.text_field :title %><p/>
   <p>Picture: <%= f.file_field :picture %></p>
